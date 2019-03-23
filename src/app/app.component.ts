@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { Show, tvmazemxcheungService } from 'tvmazemxcheung';
 
 @Component({
-  selector: 'ld-root',
+  selector: 'app-root',
   template: `
     <tm-poster [showId]="337"></tm-poster>
     <pre>{{ show$ | async | json }}</pre>
