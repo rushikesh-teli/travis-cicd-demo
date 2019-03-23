@@ -5,7 +5,7 @@ import { Show, tvmazemxcheungService } from 'tvmazemxcheung';
 @Component({
   selector: 'app-root',
   template: `
-    <tm-poster [showId]="337"></tm-poster>
+    <tm-poster [showId]="338"></tm-poster>
     <pre>{{ show$ | async | json }}</pre>
   `
 })
