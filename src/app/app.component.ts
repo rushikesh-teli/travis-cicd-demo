@@ -4,15 +4,14 @@ import { Show, tvmazemxcheungService } from 'tvmazemxcheung';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <tm-poster [showId]="338"></tm-poster>
-    <pre>{{ show$ | async | json }}</pre>
-  `
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   show$: Observable<Show>;
+  showId = 340;
 
   constructor(private tvmazemxcheung: tvmazemxcheungService) {
-    this.show$ = this.tvmazemxcheung.getShow(336);
+    this.show$ = this.tvmazemxcheung.getShow(this.showId);
   }
 }
