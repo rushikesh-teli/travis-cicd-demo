@@ -37,3 +37,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 https://mxcheung.github.io/travis-cicd-demo/
+
+
+https://appdividend.com/2018/12/14/angular-7-routing-and-sub-routing-tutorial-with-example/
+
+https://medium.freecodecamp.org/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78
+
+https://medium.com/@tomsu/how-to-build-a-library-for-angular-apps-4f9b38b0ed11
