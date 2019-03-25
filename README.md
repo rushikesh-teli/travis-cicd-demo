@@ -1,3 +1,7 @@
+[![travis](https://travis-ci.org/mxcheung/travis-cicd-demo.svg?branch=master)](https://travis-ci.org/mxcheung/travis-cicd-demo.svg?branch=master)
+
+
+
 # TravisCicdDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
