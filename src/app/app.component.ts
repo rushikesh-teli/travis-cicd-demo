@@ -9,7 +9,7 @@ import { Show, tvmazemxcheungService } from 'tvmazemxcheung';
 })
 export class AppComponent {
   show$: Observable<Show>;
-  showId = 345;
+  showId = 346;
 
   constructor(private tvmazemxcheung: tvmazemxcheungService) {
     this.show$ = this.tvmazemxcheung.getShow(this.showId);
