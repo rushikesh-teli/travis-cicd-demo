@@ -11,7 +11,7 @@ import { FootermxcheungComponent } from 'footermxcheung';
 })
 export class AppComponent {
   show$: Observable<Show>;
-  showId = 351;
+  showId = 352;
 
   constructor(private tvmazemxcheung: tvmazemxcheungService) {
     this.show$ = this.tvmazemxcheung.getShow(this.showId);
