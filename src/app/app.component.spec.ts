@@ -2,6 +2,7 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { tvmazemxcheungModule } from 'tvmazemxcheung';
 import { HeadermxcheungModule } from 'headermxcheung';
+import { FootermxcheungModule } from 'footermxcheung';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -9,7 +10,9 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
-      imports: [tvmazemxcheungModule, HeadermxcheungModule],
+      imports: [tvmazemxcheungModule,
+                HeadermxcheungModule,
+                FootermxcheungModule],
     }).compileComponents();
   }));
 

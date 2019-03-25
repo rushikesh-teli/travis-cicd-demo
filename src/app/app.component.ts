@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Show, tvmazemxcheungService } from 'tvmazemxcheung';
 import { HeadermxcheungComponent } from 'headermxcheung';
+import { FootermxcheungComponent } from 'footermxcheung';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,7 @@ import { HeadermxcheungComponent } from 'headermxcheung';
 })
 export class AppComponent {
   show$: Observable<Show>;
-  showId = 349;
+  showId = 350;
 
   constructor(private tvmazemxcheung: tvmazemxcheungService) {
     this.show$ = this.tvmazemxcheung.getShow(this.showId);
