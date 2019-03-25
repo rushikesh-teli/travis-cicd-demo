@@ -1,7 +1,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { tvmazemxcheungModule } from 'tvmazemxcheung';
-
+import { HeadermxcheungModule } from 'headermxcheung';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
