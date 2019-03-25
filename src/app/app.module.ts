@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { tvmazemxcheungModule } from 'tvmazemxcheung';
+import { HeadermxcheungModule } from 'headermxcheung';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, tvmazemxcheungModule],
+  imports: [BrowserModule, tvmazemxcheungModule, HeadermxcheungModule],
   providers: [],
   bootstrap: [AppComponent]
 })
